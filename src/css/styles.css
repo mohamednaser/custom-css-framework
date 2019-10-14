@@ -4,6 +4,9 @@ body {
 .bg-dark {
   background-color: #343a40; }
 
+.white-text {
+  color: white; }
+
 .container {
   width: 90%;
   margin: auto; }
