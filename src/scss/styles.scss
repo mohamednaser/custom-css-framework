@@ -1,5 +1,50 @@
 @import "_medium_screen.scss";
+@import "_small_screen.scss";
 
-body{
+// General Classes
+
+body {
   background-color: red;
+}
+
+.bg-dark {
+  background-color: #343a40;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.nav {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.no-border {
+  border: none;
+}
+
+// Custom Classes
+.siteName {
+  display: inline;
+  font-weight: bold;
+}
+
+.navbar {
+  height: 40px;
+}
+
+.left-div {
+  margin-left: 10%;
+  padding-top: 0.5%;
 }
