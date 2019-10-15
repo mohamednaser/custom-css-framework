@@ -1,5 +1,9 @@
 // General Classes
 
+* {
+  box-sizing: border-box;
+}
+
 .bg-dark {
   background-color: #343a40;
 }
@@ -77,16 +81,62 @@ center {
   color: white;
 }
 
-.flex {
+.row {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
 
-.flex-item {
-  width: 30%;
-  background-color: gray;
-  margin-top: 5vh;
+.col {
+  width: auto;
+}
+
+.col-1 {
+  flex: 1 1 8%;
+}
+
+.col-2 {
+  flex: 1 1 17%;
+}
+
+.col-3 {
+  flex: 1 1 25%;
+}
+
+.col-4 {
+  flex: 1 1 33%;
+}
+
+.col-5 {
+  flex: 1 1 42%;
+}
+
+.col-6 {
+  flex: 1 1 50%;
+}
+
+.col-7 {
+  flex: 1 1 58%;
+}
+
+.col-8 {
+  flex: 1 1 67%;
+}
+
+.col-9 {
+  flex: 1 1 75%;
+}
+
+.col-10 {
+  flex: 1 1 83%;
+}
+
+.col-11 {
+  flex: 1 1 92%;
+}
+
+.col-12 {
+  flex: 1 1 100%;
 }
 
 .card {
@@ -166,6 +216,10 @@ footer a:hover {
 
 .menu-icon {
   margin: 1% 2% 0 0;
+}
+
+.row div {
+  padding: 1vw;
 }
 
 @import "_medium_screen.scss";
