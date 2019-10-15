@@ -1,6 +1,3 @@
-body {
-  background-color: red; }
-
 .bg-dark {
   background-color: #343a40; }
 
@@ -8,9 +5,8 @@ body {
   color: white; }
 
 .container {
-  width: 1110px;
-  margin: auto;
-  background-color: white; }
+  width: 80%;
+  margin: auto; }
 
 .nav {
   padding: 0;
@@ -26,25 +22,18 @@ body {
 .no-border {
   border: none; }
 
-.siteName {
-  display: inline;
-  font-weight: bold; }
-
-.navbar {
-  height: 40px; }
-
-.left-div {
-  margin-left: 10%;
-  padding-top: 0.5%; }
-
-.text-center {
-  text-align: center; }
-
 main {
   height: 60vh; }
 
 center {
-  margin: 0 0; }
+  width: 80%;
+  margin: auto; }
+
+.btn {
+  border: none;
+  margin-right: 0.5vh;
+  border-radius: 10%;
+  padding: 1vh; }
 
 .btn-primary {
   text-decoration: none;
@@ -100,3 +89,49 @@ center {
 
 .r3 {
   grid-row: 3 / -1; }
+
+.card {
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0 0 18px 10px; }
+
+.card-img {
+  width: 100%; }
+
+.album-details {
+  width: 90%;
+  margin: auto;
+  padding-top: 2vh;
+  margin-bottom: 2vh; }
+
+.btn-group {
+  display: inline-flex;
+  vertical-align: middle; }
+
+.siteName {
+  display: inline;
+  font-weight: bold; }
+
+.navbar {
+  height: 40px; }
+
+.card-body {
+  background-color: white; }
+
+.left-div {
+  margin-left: 10%;
+  padding-top: 0.5%; }
+
+.paragraph-text {
+  padding-bottom: 5vh; }
+
+.main-call-to-action {
+  margin-left: 35%; }
+
+.text-center {
+  padding-top: 10%;
+  text-align: center; }
+
+.actions-div {
+  margin-left: 2vh;
+  margin-bottom: 2vh; }
