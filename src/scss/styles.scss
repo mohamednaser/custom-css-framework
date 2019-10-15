@@ -1,3 +1,226 @@
-body{
-  background-color: red;
+// General Classes
+
+* {
+  box-sizing: border-box;
 }
+
+.bg-dark {
+  background-color: #343a40;
+}
+
+.white-text {
+  color: white;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.nav {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.no-border {
+  border: none;
+}
+
+main {
+  height: 60vh;
+}
+
+center {
+  width: 80%;
+  margin: auto;
+}
+
+.btn {
+  border: none;
+  margin-right: 0.5vh;
+  border-radius: 10%;
+  padding: 1vh;
+}
+
+.btn-primary {
+  text-decoration: none;
+  color: white;
+  background-color: #007bff;
+  padding: 10px 5px;
+  border-radius: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-primary:hover {
+  background-color: #0069d9;
+  border-color: #0062cc;
+  color: white;
+}
+
+.btn-secondary {
+  text-decoration: none;
+  color: white;
+  background-color: #6c757d;
+  padding: 10px 5px;
+  border-radius: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+  border-color: #545b62;
+  color: white;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  width: auto;
+}
+
+.col-1 {
+  flex: 1 1 8%;
+}
+
+.col-2 {
+  flex: 1 1 17%;
+}
+
+.col-3 {
+  flex: 1 1 25%;
+}
+
+.col-4 {
+  flex: 1 1 33%;
+}
+
+.col-5 {
+  flex: 1 1 42%;
+}
+
+.col-6 {
+  flex: 1 1 50%;
+}
+
+.col-7 {
+  flex: 1 1 58%;
+}
+
+.col-8 {
+  flex: 1 1 67%;
+}
+
+.col-9 {
+  flex: 1 1 75%;
+}
+
+.col-10 {
+  flex: 1 1 83%;
+}
+
+.col-11 {
+  flex: 1 1 92%;
+}
+
+.col-12 {
+  flex: 1 1 100%;
+}
+
+.card {
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0 0 18px 10px;
+}
+
+.card-img {
+  width: 100%;
+}
+
+.album-details {
+  width: 90%;
+  margin: auto;
+  padding-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+.btn-group {
+  // display: inline-flex;
+  vertical-align: middle;
+}
+
+.pt-8 {
+  padding-top: 8vh;
+}
+
+// Custom Classes
+.siteName {
+  display: inline;
+  font-weight: bold;
+}
+
+.navbar {
+  height: 40px;
+}
+
+.card-body {
+  background-color: white;
+}
+
+.left-div {
+  margin-left: 10%;
+  padding-top: 0.5%;
+}
+
+.paragraph-text {
+  padding-bottom: 5vh;
+}
+
+.text-center {
+  text-align: center;
+}
+
+footer {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #6c757d;
+  text-align: left;
+  height: 20vh;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: #212529;
+}
+
+#footer-container {
+  margin-top: 10vh;
+}
+
+.menu-icon {
+  margin: 1% 2% 0 0;
+}
+
+.row div {
+  padding: 1vw;
+}
+
+@import "_medium_screen.scss";
+@import "_small_screen.scss";
