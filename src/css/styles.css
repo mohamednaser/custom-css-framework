@@ -105,8 +105,10 @@ center {
   margin-bottom: 2vh; }
 
 .btn-group {
-  display: inline-flex;
   vertical-align: middle; }
+
+.pt-8 {
+  padding-top: 8vh; }
 
 .siteName {
   display: inline;
@@ -125,15 +127,10 @@ center {
 .paragraph-text {
   padding-bottom: 5vh; }
 
-.main-call-to-action {
-  margin-left: 35%; }
-
 .text-center {
-  padding-top: 10%;
   text-align: center; }
 
 footer {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -150,3 +147,6 @@ footer a:hover {
 
 #footer-container {
   margin-top: 10vh; }
+
+.menu-icon {
+  margin: 1% 2% 0 0; }
