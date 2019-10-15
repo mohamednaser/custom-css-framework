@@ -42,7 +42,7 @@ git clone https://github.com/mohamednaser/custom-css-framework.git
 
 ## Live Version
 
-Live version [here](https://google.com) [pending].
+Live version [here](https://mohamednaser.github.io/custom-css-framework/)
 
 ## ScreenShot For Page
 
